@@ -14,17 +14,17 @@ Using a standard user account instead of an administrator account adds an extra 
 
 **The current version of _Privileges_ supports the following macOS versions:**
 
+* macOS 27.x
 * macOS 26.x
 * macOS 15.x
 * macOS 14.x
 * macOS 13.x (*)
 * macOS 12.x
-* macOS 11.x
 
 <br/>
 
 >[!NOTE]
->(*) Unfortunately, macOS 13 incorrectly reports a launch constraint violation and immediately terminates the application. Starting with version 2.2, we are therefore providing two versions of the application: one with launch constraints and one without. However, we recommend using the version with launch constraints whenever possible.
+>(*) Unfortunately, macOS 13 incorrectly reports a launch constraint violation and immediately terminates the application. Starting with _Privileges 2.2.0_, we are therefore providing two versions of the application: one with launch constraints and one without. However, we recommend using the version with launch constraints whenever possible.
 <br/>
 
 # Features
@@ -91,25 +91,33 @@ As of _Privileges 1.0.5_, it is possible to manage settings for _Privileges_ or 
 See who's talking about _Privileges_…
 
 2026
+* [The power of collaboration: an admin-rights audit trail for every Mac](https://fleetdm.com/articles/the-power-of-collaboration)
 * [Yandex Corporate Blog: Анатомия SAP Privileges: как устроено управление правами в macOS (Russian language)](https://habr.com/ru/companies/yandex/articles/1023708/)
 * [Yandex Corporate Blog: Anatomy of SAP Privileges: How Administrator Rights Work in macOS (English translation of the above blog post)](https://medium.com/@ap274776/anatomy-of-sap-privileges-how-administrator-rights-work-in-macos-fa0d15fb1af1)
 
 2025
-* [Leveling Up - Managing admin rights in the enterprise - Rich Trouton's session at MacAD.UK 2025](https://youtu.be/JSnCdmV_N5U)
+* [Leveling Up - Managing admin rights in the enterprise: Rich Trouton's session at MacAD.UK 2025](https://youtu.be/JSnCdmV_N5U)
 * [9To5Mac: Privileges 2.1 continues to be one of the must-have macOS apps in the enterprise](https://9to5mac.com/2025/03/15/privileges-2-1-continues-to-be-one-of-the-must-have-macos-apps-in-the-enterprise/)
 * [Caschys Blog: Privileges 2.3.0: Mehr Sicherheit und Kontrolle für Mac-Admins (German language)](https://stadt-bremerhaven.de/privileges-2-3-0-mehr-sicherheit-und-kontrolle-fuer-mac-admins/)
 
 2024
+
+* [Der Flounder: Using Privileges post-actions](https://derflounder.wordpress.com/2024/12/01/using-privileges-post-actions/)
+* [Der Flounder: Managing time limited admin rights with Privileges 2.x](https://derflounder.wordpress.com/2024/11/21/managing-time-limited-admin-rights-with-privileges-2-x/)
 * [Der Flounder: Privileges 2.0 available with new features](https://derflounder.wordpress.com/2024/11/20/privileges-2-0-available-with-new-features)
   
 2022
 * [Mac & i: SAP-Werkzeug erleichtert Arbeit als Standardnutzer (German language)](https://www.heise.de/-7192631)
 * [ifun.de: Privileges.app von SAP: Nur noch auf Zuruf zum Admin (German language)](https://www.ifun.de/privileges-app-von-sap-nur-noch-auf-zuruf-zum-admin-191491/)
+* [Der Flounder: Privileges.app and time-limited admin](https://derflounder.wordpress.com/2022/07/22/privileges-app-and-time-limited-admin/)
+* [Der Flounder: Building a Privileges installer package using AutoPkg](https://derflounder.wordpress.com/2022/04/20/building-a-privileges-installer-package-using-autopkg/)
 * [Leveling Up - Rich Trouton's session at MacSysAdmin 2022](https://docs.macsysadmin.se/2022/video/day1session2.mp4)
 * [The Great Debate: Admin or Standard Users? - A talk hosted by Kandji](https://youtu.be/LCj59EIKFDg)
 
 2019
 * [9To5Mac: Privileges for macOS is the open source tool that all Apple IT departments need](https://9to5mac.com/2019/11/16/privileges-app-for-macos/)
+* [Travelling Tech Guy: Manage macOS admin privileges with the SAP – Privileges app](https://travellingtechguy.blog/sap-privileges-app/)
+* [Der Flounder: Building an installer package for Privileges.app](https://derflounder.wordpress.com/2019/03/20/building-an-installer-package-for-privileges-app/)
 
 <br/>
 
@@ -122,12 +130,15 @@ To learn more about _Privileges_ features, make sure to take a look at our [wiki
 * [Using _Privileges_](https://github.com/SAP/macOS-enterprise-privileges/wiki/Using-Privileges)
 * [Managing _Privileges_](https://github.com/SAP/macOS-enterprise-privileges/wiki/Managing-Privileges)
 * [Frequently Asked Questions](https://github.com/SAP/macOS-enterprise-privileges/wiki/Frequently-Asked-Questions)
+<br/>
+
+* [Privileges Channel @ Mac Admins Slack](https://macadmins.slack.com/channels/privileges)
 
 <br/>
 
 # License
 
-Copyright (c) 2018-2026 SAP SE or an SAP affiliate company and macOS-enterprise-privileges contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macOS-enterprise-privileges).
+Copyright (c) 2018-2026 SAP SE or an SAP affiliate company and _Privileges_ contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macOS-enterprise-privileges).
 
 <br/>
 
@@ -142,6 +153,14 @@ Found a security-related issue or vulnerability and want to notify us? [Please s
 
 <br/>
 
+# Code of Conduct
+
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone. By participating in this project, you agree to abide by its [Code of Conduct](CODE_OF_CONDUCT.md) at all times.
+
+<br/>
+
 # Support
 
-This project is 'as-is' with no support, no changes being made. You are welcome to make changes to improve it but we are not available for questions or support of any kind.
+This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/SAP/macOS-enterprise-privileges/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
+
+
